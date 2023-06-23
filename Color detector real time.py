@@ -36,7 +36,7 @@ while(True):
   
   
     # Display the resulting frame
-    cv.imshow('frame', hsv)
+    cv.imshow('frame', frame)
       
     #the 'd' button is set as the quitting button
     if cv.waitKey(10) & 0xFF == ord('d'):
